@@ -1,0 +1,45 @@
+
+   * {
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
+    }
+        body {
+            display: flex;
+           
+            font-size: 18px;}
+        
+        section{
+         
+            min-height: 100vh;
+            width:50%; }
+    .first-half{
+     display: flex;
+     flex-direction: column;
+     justify-content:center ;
+     padding:60px;}
+     .first-half h1{
+        font-size :40px;
+        color:blue;}
+        .first-half p{
+            font-size:48px
+            
+        }
+      
+
+
+        @media only screen and (max-width: 600px) {
+            .first-half {
+                padding: 20px; /* Further reduced padding for smaller screens */
+            }
+        
+            .first-half h1 {
+                font-size: 28px; /* Further adjusted font size for smaller screens */
+            }
+        
+            .first-half p {
+                font-size: 32px; /* Further adjusted font size for smaller screens */
+            }
+        
+            
+        }
