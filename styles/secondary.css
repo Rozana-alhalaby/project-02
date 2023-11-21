@@ -2,20 +2,21 @@
     .second-half{
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
 
 }
 form{ border:1px solid blue;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap:15px;
     box-shadow: 5px 5px 5px rgb(8, 8, 8);
     padding:20px;
-    border-radius:10px;}
+    border-radius:10px;
+    min-width: 350px;}
 form > *:not(hr){
 min-height:40px;
-min-width: 350px;
+width:100%;
 text-align: center;
 
 }
@@ -38,13 +39,3 @@ button{
 hr{
     width:100%
 }
-@media only screen and (max-width: 600px) {
-    
-.second-half {
-    width: 100%; /* Full width for smaller screens */
-}
-
-form > *:not(hr) {
-    min-width: 100%; /* Full width for smaller screens */
-}
-    }
